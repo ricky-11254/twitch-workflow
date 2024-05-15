@@ -15,6 +15,7 @@ Twitch-Workflow is a command-line tool designed for Twitch streamers to seamless
 
 - Python 3.x
 - `requests` library
+- `google-auth` library
 - `google-api-python-client` library
 
 ## Setup
@@ -26,8 +27,9 @@ Twitch-Workflow is a command-line tool designed for Twitch streamers to seamless
     ```
 
 2. **Configure API Tokens**:
-    - Obtain your Twitch API token and YouTube API token.
-    - Add these tokens to the relevant files as per the API documentation.
+    - Obtain your [Twitch API token](https://dev.twitch.tv/docs/authentication).
+    - Obtain your [YouTube API token](https://developers.google.com/youtube/v3/getting-started).
+    - Create a [Google Console Project](https://console.cloud.google.com/) and enable the YouTube Data API.
 
 3. **Save Video Information**:
     - Save your video information in a JSON file (`twitch_videos.json`).
